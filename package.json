@@ -1,0 +1,29 @@
+{
+  "name": "@ratchet/ratchet-web",
+  "description": "A web-first, cross-platform ML framework.",
+  "version": "0.4.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FL33TW00D/ratchet"
+  },
+  "files": [
+    "ratchet-web_bg.wasm",
+    "ratchet-web.js",
+    "ratchet-web.d.ts"
+  ],
+  "module": "ratchet-web.js",
+  "types": "ratchet-web.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ],
+  "keywords": [
+    "llm",
+    "wasm",
+    "transformers",
+    "webgpu",
+    "ml",
+    "machine-learning",
+    "deep-learning"
+  ]
+}
